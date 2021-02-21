@@ -42,7 +42,7 @@ namespace Innovt.AspNetCore
             Localization = new DefaultApiLocalization();
         }
 
-        internal bool IsSwaggerEnabled()
+        private bool IsSwaggerEnabled()
         {
             return (Documentation is {});
         }

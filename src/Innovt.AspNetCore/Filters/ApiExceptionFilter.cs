@@ -26,7 +26,7 @@ namespace Innovt.AspNetCore.Filters
         }
         private string Translate(string message)
         {
-            return stringLocalizer == null ? message : stringLocalizer[message];
+            return stringLocalizer?[message] ?? message;
         }
 
         public override void OnException(ExceptionContext context)
@@ -48,7 +48,8 @@ namespace Innovt.AspNetCore.Filters
             else
             { 
                 result.Code = $"{StatusCodes.Status500InternalServerError}";
-                result.Detail = $"Server Error: {baseException.Message}. Check your backend log for more detail.";
+                //result.Detail = $"Server Error: {baseException.Message}. Check your backend log for more detail.";
+                result.Detail = $"Internal server error.";
                 context.Result = new ObjectResult(result) { StatusCode = StatusCodes.Status500InternalServerError };
                 logger?.Error(context.Exception,"Message: {@Message} TraceId: @{TraceId} ",baseException.Message,result.TraceId);
             }

@@ -37,10 +37,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="741c11c8-6345-4a62-a870-aa11e5bc5449" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../build/_build.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../build/_build.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Innovt.Platform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Innovt.Platform/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Innovt.Platform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Innovt.Platform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda.Sqs/SqsEventProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda.Sqs/SqsEventProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Innovt.Core/CrossCutting/Ioc/IContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Core/CrossCutting/Ioc/IContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Innovt.Data.Ado/RepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Data.Ado/RepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.AspNetCore/ApiStartupBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.AspNetCore/ApiStartupBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.AspNetCore/Filters/ApiExceptionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.AspNetCore/Filters/ApiExceptionFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.AspNetCore/Filters/CaptchaValidatorFilterAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.AspNetCore/Filters/CaptchaValidatorFilterAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.AspNetCore/Innovt.AspNetCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.AspNetCore/Innovt.AspNetCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Cognito/Innovt.Cloud.AWS.Cognito.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Cognito/Innovt.Cloud.AWS.Cognito.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Dynamo/Innovt.Cloud.AWS.Dynamo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Dynamo/Innovt.Cloud.AWS.Dynamo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Kinesis/Innovt.Cloud.AWS.Kinesis.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Kinesis/Innovt.Cloud.AWS.Kinesis.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda/Innovt.Cloud.AWS.Lambda.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda/Innovt.Cloud.AWS.Lambda.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.Notification/Innovt.Cloud.AWS.Notification.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.Notification/Innovt.Cloud.AWS.Notification.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.S3/Innovt.Cloud.AWS.S3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.S3/Innovt.Cloud.AWS.S3.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS.SQS/Innovt.Cloud.AWS.SQS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS.SQS/Innovt.Cloud.AWS.SQS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Cloud.AWS/Innovt.Cloud.AWS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Cloud.AWS/Innovt.Cloud.AWS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Core/Innovt.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Core/Innovt.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.CrossCutting.IOC/Innovt.CrossCutting.IOC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.CrossCutting.IOC/Innovt.CrossCutting.IOC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.CrossCutting.Log.Serilog/Innovt.CrossCutting.Log.Serilog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.CrossCutting.Log.Serilog/Innovt.CrossCutting.Log.Serilog.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Data.Ado/Innovt.Data.Ado.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Data.Ado/Innovt.Data.Ado.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Data.EFCore/Innovt.Data.EFCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Data.EFCore/Innovt.Data.EFCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Data/Innovt.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Data/Innovt.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Innovt.Job.Core/Innovt.Job.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Innovt.Job.Core/Innovt.Job.Core.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +70,32 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda/LambdaLogger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/5f/b2daf244/AmazonDynamoDBClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F4F0914-5411-4A47-9D76-C00412957903/3FA/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/654AC2D5-AEE9-4BB7-9DE1-E6F0533F5376/140/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/654AC2D5-AEE9-4BB7-9DE1-E6F0533F5376/2f/fc6fb880/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44064694-2DA2-45F5-A2D0-848F8C61ED74/80/325e54a6/QueryResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/804CA853-9C6E-4025-80A1-F012B0A50C56/D/SqlMapper.Async.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/ApiStartupBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud.AWS.Dynamo/Repository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud.AWS.Dynamo/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Core/Utilities/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud.AWS.Dynamo.Tests/RepositoryTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/0b/ca08ba3b/IDynamoDBv2PaginatorFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Model/DefaultApiLocalization.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D5EDF430-AB5A-4412-A0B9-E75F3C32EB0A/65/336f1dd1/ModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Filters/CaptchaValidatorFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/66/95d0c8e7/QueryRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Filters/SwaggerExcludeFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Filters/AuthorizationFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/07/c9d5a3f1/IQueryPaginator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Filters/ApiExceptionFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/5f/b2daf244/AmazonDynamoDBClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/654AC2D5-AEE9-4BB7-9DE1-E6F0533F5376/2f/fc6fb880/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44064694-2DA2-45F5-A2D0-848F8C61ED74/80/325e54a6/QueryResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/804CA853-9C6E-4025-80A1-F012B0A50C56/D/SqlMapper.Async.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Innovt.AspNetCore/Resources/IExceptionResource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud/Table/BaseRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/051BC642-7BC4-4025-8FC8-06B760F03A0E/09/a0dedce9/AttributeValue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud/Table/ScanRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2487D3E0-48CE-4C7C-BE1B-5A050DA81DEE/07/c9d5a3f1/IQueryPaginator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -101,6 +127,10 @@
       <option value="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda.Kinesis/KinesisDataProcessor.cs" />
       <option value="$PROJECT_DIR$/Innovt.Core/CrossCutting/Ioc/IContainer.cs" />
       <option value="$PROJECT_DIR$/Innovt.Cloud.AWS.Lambda.Sqs/SqsEventProcessor.cs" />
+      <option value="$PROJECT_DIR$/Innovt.AspNetCore/Filters/SwaggerExcludeFilter.cs" />
+      <option value="$PROJECT_DIR$/Innovt.AspNetCore/ApiStartupBase.cs" />
+      <option value="$PROJECT_DIR$/Innovt.AspNetCore/Filters/CaptchaValidatorFilterAttribute.cs" />
+      <option value="$PROJECT_DIR$/Innovt.AspNetCore/Filters/ApiExceptionFilter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1jWxQf8VmAkARbTTMoJUI5G2XMM" />
@@ -242,6 +272,9 @@
       <workItem from="1613063116448" duration="2612000" />
       <workItem from="1613070022698" duration="5719000" />
       <workItem from="1613085084832" duration="988000" />
+      <workItem from="1613500561216" duration="1469000" />
+      <workItem from="1613510092533" duration="3555000" />
+      <workItem from="1613943603695" duration="982000" />
     </task>
     <servers />
   </component>

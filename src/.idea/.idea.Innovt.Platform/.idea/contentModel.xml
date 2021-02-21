@@ -43,58 +43,7 @@
       <e p="Data" t="Include" />
       <e p="Domain" t="Include" />
       <e p="Innovt.AspNetCore" t="IncludeRecursive">
-        <e p="ApiStartupBase.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include">
-          <e p="BaseController.cs" t="Include" />
-          <e p="SecurityController.cs" t="Include" />
-        </e>
-        <e p="Extensions" t="Include">
-          <e p="MvcExtensions.cs" t="Include" />
-        </e>
-        <e p="Filters" t="Include">
-          <e p="ApiExceptionFilter.cs" t="Include" />
-          <e p="AuthorizationFilter.cs" t="Include" />
-          <e p="CaptchaValidatorFilterAttribute.cs" t="Include" />
-          <e p="CustomExceptionFilterAttribute.cs" t="Include" />
-          <e p="InjectUserNameClaimParameterFilter.cs" t="Include" />
-          <e p="RequestTrackingFilterAttribute.cs" t="Include" />
-          <e p="SwaggerExcludeFilter.cs" t="Include" />
-        </e>
-        <e p="Handlers" t="Include">
-          <e p="HasScopeRequirement.cs" t="Include" />
-        </e>
-        <e p="Infrastructure" t="Include">
-          <e p="InvalidModelStateResponse.cs" t="Include" />
-        </e>
         <e p="Innovt.AspNetCore.csproj" t="IncludeRecursive" />
-        <e p="Model" t="Include">
-          <e p="DefaultApiDocumentation.cs" t="Include" />
-          <e p="DefaultApiLocalization.cs" t="Include" />
-          <e p="ResponseError.cs" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="Innovt.AspNetCore.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Resources" t="Include">
-          <e p="IExceptionResource.cs" t="Include" />
-        </e>
-        <e p="Utility" t="Include">
-          <e p="Pagination" t="Include">
-            <e p="PaginationBuilder.cs" t="Include" />
-          </e>
-        </e>
-        <e p="ViewModel" t="Include">
-          <e p="CreateOrEditViewModel.cs" t="Include" />
-          <e p="ListViewModel.cs" t="Include" />
-          <e p="MvcActionViewModel.cs" t="Include" />
-          <e p="MvcControllerViewModel.cs" t="Include" />
-          <e p="ViewModelBase.cs" t="Include" />
-        </e>
       </e>
       <e p="Innovt.Cloud" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

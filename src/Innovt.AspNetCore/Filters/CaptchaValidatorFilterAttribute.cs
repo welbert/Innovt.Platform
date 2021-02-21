@@ -22,7 +22,7 @@ namespace Innovt.AspNetCore.Filters
         private readonly string antiForgery;
         private readonly string hostName;
         private static string secretKey;
-        private const string captchaURI = "https://www.google.com/recaptcha/api/siteverify";
+        private const string CaptchaUri = "https://www.google.com/recaptcha/api/siteverify";
         private readonly string defaultToken = "inn0ut#";
 
          /// <summary>
@@ -67,10 +67,9 @@ namespace Innovt.AspNetCore.Filters
 
             ReadConfig(context);
 
-
             using var httpClient = new HttpClient();
             
-                var stringAsync = await httpClient.GetStringAsync($"{captchaURI}?secret={secretKey}&response={token}");
+                var stringAsync = await httpClient.GetStringAsync($"{CaptchaUri}?secret={secretKey}&response={token}");
 
                 var serializerSettings = new JsonSerializerOptions
                 {
@@ -93,8 +92,7 @@ namespace Innovt.AspNetCore.Filters
         {  
             if (!context.HttpContext.IsLocal())
             {
-                var header =
-                    context.HttpContext.Request.Headers.TryGetValue("g-recaptcha-response", out var recaptchaResponse);
+                var header = context.HttpContext.Request.Headers.TryGetValue("g-recaptcha-response", out var recaptchaResponse);
 
                 if (!header)
                 {
@@ -103,7 +101,7 @@ namespace Innovt.AspNetCore.Filters
                     {
                         Content = "Missing g-recaptcha-response header.",
                         StatusCode = 400
-                    };
+                    }; 
 
                     return;
                 }
